@@ -7,7 +7,7 @@ LABEL org.opencontainers.image.source="https://github.com/mbentley/docker-omada-
 COPY healthcheck.sh install.sh /
 
 # valid values: amd64 (default) | arm64 | armv7l
-ARG ARCH=amd64
+ARG ARCH=arm64
 
 # install version (major.minor or full version); OMADA_URL set in install.sh
 ARG INSTALL_VER="5.15.24.18"
